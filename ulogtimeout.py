@@ -21,6 +21,8 @@
 # # iptables -I INPUT -m limit --limit 1/minute -p tcp --dport 22 -j ULOG
 # # python ulogtimeout.py 1200 'shutdown -h +5' 7777 &
 #
+# Copyright 2010 topicbranch.net. All rights reserved.
+#
 
 import os
 import sys
